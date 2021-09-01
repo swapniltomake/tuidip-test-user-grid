@@ -1,0 +1,7 @@
+<div class="user-grid-list">
+    <app-user-grid-list-item *ngFor="let user of users" [user]="user" (onUserGridClick)="onUserGridClick">
+    </app-user-grid-list-item>
+</div>
+<div class="router-navigations">
+    <button mat-raised-button color="primary" routerLink="/user-table">Example 2</button>
+</div>

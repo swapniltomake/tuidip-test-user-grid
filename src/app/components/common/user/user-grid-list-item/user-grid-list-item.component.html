@@ -1,0 +1,9 @@
+<mat-card matRipple *ngIf="user" class="user-grid-item">
+    <div class="user-avatar">
+        <img src="./assets/images/avatar/male-user-svgrepo-com.svg" alt="user-icon">
+    </div>
+    <div class="user-details">
+        <div class="user-name">{{user.first_name}} {{user.last_name}}</div>
+        <div class="user-email">{{user.email}}</div>
+    </div>
+</mat-card>
