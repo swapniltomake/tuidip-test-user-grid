@@ -11,6 +11,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { UserTableComponent } from './components/user-table/user-table.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MatTableModule } from '@angular/material/table';
     MatCardModule,
     MatRippleModule,
     MatButtonModule,
-    MatTableModule
+    MatTableModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
