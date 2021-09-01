@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'user-grid';
-  localData=[
-    {
-      "First Name":"Swapnil",
-      "Last Name":"Tomake",
-      "Email":"swapniltomake999@gmail.com"
-    }
-  ]
 }
